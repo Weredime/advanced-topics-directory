@@ -1,0 +1,13 @@
+{
+    "name": "advanced-topics-directory",
+    "description": "Advanced topics directory builder",
+    "author": "Weredime",
+    "type": "module",
+    "dependencies": {
+        "dotenv": "^16.0.0",
+        "form-data": "^4.0.0",
+        "meowclient": "2.1.0",
+        "node-fetch": "^3.2.1",
+        "node-html-parser": "^5.2.0"
+    }
+}
