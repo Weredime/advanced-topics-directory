@@ -1,5 +1,7 @@
 import fs from "fs";
 
+const escapeRegExp = (str) => str.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+
 export function fetch() {
     const templates = fs.readdirSync("templates");
     const files = {}
@@ -18,3 +20,4 @@ export function replace(template, replacers) {
 
     return template;
 }
+
